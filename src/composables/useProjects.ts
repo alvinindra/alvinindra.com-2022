@@ -23,6 +23,10 @@ import coverRestoku from '~/assets/images/projects/restoku.png'
 import coverQuranku from '~/assets/images/projects/cover-quranku.jpg'
 import coverCovid19 from '~/assets/images/projects/cover-covid19.jpg'
 import coverDicodingJobs from '~/assets/images/projects/cover-dicodingjobs.jpeg'
+import coverMassivemusic from '~/assets/images/projects/massivemusic.png'
+import coverXlcoid from '~/assets/images/projects/cover-xlcoid.png'
+import coverFtw from '~/assets/images/projects/cover-ftw.png'
+import coverAxis from '~/assets/images/projects/cover-axis.png'
 
 export function useProjects() {
   const isDark = useDark()
@@ -31,8 +35,8 @@ export function useProjects() {
       id: 8,
       name: 'XL.CO.ID',
       url: 'https://xl.co.id/',
-      description: `Contribute to the development of the XL.CO.ID website, a website that provides information about XL products and services, as well as the latest promos and events.`,
-      cover: "https://media.licdn.com/dms/image/v2/D562DAQEqi1pPKVgH0w/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1712127032567?e=1739127600&v=beta&t=zp1tbpAq191cJUm2uldiTsrLTbE3CpehJli0V-e5IQU",
+      description: 'Contribute to the development of the XL.CO.ID website, a website that provides information about XL products and services, as well as the latest promos and events.',
+      cover: coverXlcoid,
       featured: true,
       techstack: [
         {
@@ -191,7 +195,7 @@ export function useProjects() {
       name: 'Massive Music',
       url: 'https://www.massivemusic.co.id/',
       description: 'Massive Music is home for more than 1,200 Indonesian Composers. As the Leading Music Publisher in Indonesia with the largest market share for local catalogue, Massive Music is Home for Songwriter and Heaven for Song User. We are making Music Publishing accessible for everyone.',
-      cover: "https://media.licdn.com/dms/image/v2/D562DAQGiZU2nhNCp_Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1737988479344?e=1739127600&v=beta&t=Fj84lVTyP_qnEZXw3T31jo58v3wV44kkYIvrL4KZIno",
+      cover: coverMassivemusic,
       featured: false,
       techstack: [
         {
@@ -216,7 +220,7 @@ export function useProjects() {
       name: 'Axis Digital Mutant',
       url: 'https://axis.co.id/digitalmutant',
       description: 'Building Axis Digital Mutant web with Next.js and Tailwind CSS. Integrating API Generate Mutant, Layouting Full Pages',
-      cover: "https://media.licdn.com/dms/image/v2/D562DAQG6BLfzNmXvEA/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1722223933161?e=1739127600&v=beta&t=LTZkXjGbJCXQaWhiyt7wb07YcX6QLekB_R3UITt8D3A",
+      cover: coverAxis,
       featured: false,
       techstack: [
         {
@@ -241,7 +245,7 @@ export function useProjects() {
       name: 'FTW',
       url: 'https://ftwjakarta.id/',
       description: 'FTW is not just a creative agency. FTW is an agency with extensive experience across diverse industries, brands, and regions, delivering effective results through proven work processes.',
-      cover: "https://media.licdn.com/dms/image/v2/D562DAQEcAzQUWN9CgA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1722427718715?e=1739127600&v=beta&t=v-NQCb9vFjY1PuWTOsYGJzn1R_ES-h6jg8WLj_c3frY",
+      cover: coverFtw,
       featured: false,
       techstack: [
         {
